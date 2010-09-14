@@ -22,3 +22,6 @@
 [submodule "snipmate-snippets"]
 	path = snipmate-snippets
 	url = http://github.com/scrooloose/snipmate-snippets.git
+[submodule "bundle/rubycomplete"]
+	path = bundle/rubycomplete
+	url = http://github.com/vim-scripts/rubycomplete.vim.git
