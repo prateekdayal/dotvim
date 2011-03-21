@@ -28,3 +28,6 @@
 [submodule "bundle/lustyjuggler"]
 	path = bundle/lustyjuggler
 	url = https://github.com/vim-scripts/LustyJuggler.git
+[submodule "bundle/endwise"]
+	path = bundle/endwise
+	url = https://github.com/tpope/vim-endwise.git
