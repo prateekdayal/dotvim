@@ -14,6 +14,8 @@ set gdefault
 set wildmenu
 set hidden
 map <Leader>t :CommandT<CR>
+nore ; :
+nore , ;
 if has('gui_running')
     set background=light
 else
@@ -22,3 +24,4 @@ endif
 g:solarized_contrast = "high"
 "colorscheme solarized
 
+set shiftwidth=2
