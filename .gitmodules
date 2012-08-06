@@ -24,7 +24,7 @@
 	url = http://github.com/scrooloose/snipmate-snippets.git
 [submodule "bundle/rubycomplete"]
 	path = bundle/rubycomplete
-	url = http://github.com/vim-scripts/rubycomplete.vim.git
+	url = https://github.com/vim-scripts/rubycomplete.vim.git
 [submodule "bundle/lustyjuggler"]
 	path = bundle/lustyjuggler
 	url = https://github.com/vim-scripts/LustyJuggler.git
