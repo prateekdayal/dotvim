@@ -1,4 +1,5 @@
 set hlsearch
+nmap <silent> <leader>s :set spell!<CR>
 set vb
 set incsearch
 set expandtab
@@ -26,3 +27,7 @@ g:solarized_contrast = "high"
 "colorscheme solarized
 
 set shiftwidth=2
+
+" replace the word under the cursor
+:nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
+
