@@ -1,4 +1,5 @@
 set hlsearch
+set ic
 nmap <silent> <leader>s :set spell!<CR>
 set vb
 set incsearch
@@ -30,4 +31,5 @@ set shiftwidth=2
 
 " replace the word under the cursor
 :nnoremap <Leader>s :%s/\<<C-r><C-w>\>/
-
+:syntax match nonascii "[^\x00-\x7F]"
+:highlight nonascii guibg=Red ctermbg=2 termbg=2
